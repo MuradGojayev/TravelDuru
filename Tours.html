@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelDuru</title>
+    <link rel="stylesheet" href="TravelDuru.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <div class="preloader-bg"></div>
+    
+    <div id="progress">
+      <span id="progress-value">
+        <i class="fa-solid fa-chevron-right fa-rotate-270"></i>
+      </span>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="expand-logo">
+          <a class="navbar-brand" href="TravelDuru.html">
+            <img
+              src="	https://duruthemes.com/demo/html/travol/multipage-slider/img/logo-light.png"
+              class="logo-img"
+            />
+          </a>
+        </div>
+        <button
+          class="btn-bar-icon navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="TravelDuru.html"
+              >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tours.html">Tours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="simple-hd" style="background-image: url(https://duruthemes.com/demo/html/travol/multipage-slider/img/slider/2.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 mt">
+                    <h5>CHOOSE YOUR TOUR</h5>
+                    <h1>MOST POPULAR  <span>TOURS</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <section class="tours1-sc">
+      <div class="container">
+        <div class="row">
+          <div class="coll-md-12">
+            <div class="sec-title">
+              <span>
+                CHOOSE YOUR PLACE
+              </span>
+            </div>
+            <div class="sec-subtitle">
+              POPULAR
+              <span>TOURS</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="item">
+              <div class="position-hidden">
+                <img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/tours/maldives1.jpg" alt="">
+              </div>
+              <div class="price-dlr">
+                <a href="#0">$2.500</a>
+              </div>
+              <div class="evaluate">
+                <div class="rating">
+                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                  <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                  <div class="reviews-count">(2 Reviews)</div>
+                </div>
+                <h5>
+                  <a href="#tours-details.html">Maldives Tour</a>
+                </h5>
+                <div class="line"></div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                        10 Days
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                        12+
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        Maldives
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item">
+              <div class="position-hidden">
+                <img src="	https://duruthemes.com/demo/html/travol/multipage-slider/img/tours/italy1.jpg" alt="">
+              </div>
+              <div class="price-dlr">
+                <a href="#0">$1.400</a>
+              </div>
+              <div class="evaluate">
+                
+                <h5>
+                  <a href="#tours-details.html">Italy Tour</a>
+                </h5>
+                <div class="line"></div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                        6 Days
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                        10+
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        Italy
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item">
+              <div class="position-hidden">
+                <img src="	https://duruthemes.com/demo/html/travol/multipage-slider/img/tours/france1.jpg" alt="">
+              </div>
+              <div class="price-dlr">
+                <a href="#0">$400</a>
+              </div>
+              <div class="evaluate">
+               
+                <h5>
+                  <a href="#tours-details.html">France Tour</a>
+                </h5>
+                <div class="line"></div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                        10 Days
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                        6+
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        France
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item">
+              <div class="position-hidden">
+                <img src="	https://duruthemes.com/demo/html/travol/multipage-slider/img/tours/greece1.jpg" alt="">
+              </div>
+              <div class="price-dlr">
+                <a href="#0">$500</a>
+              </div>
+              <div class="evaluate">
+                
+                <h5>
+                  <a href="#tours-details.html">Greece Tour</a>
+                </h5>
+                <div class="line"></div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                        10 Days
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                        12+
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        Greece
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="item">
+              <div class="position-hidden">
+                <img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/tours/canada1.jpg" alt="">
+              </div>
+              <div class="price-dlr">
+                <a href="#0">$300</a>
+              </div>
+              <div class="evaluate">
+               
+                <h5>
+                  <a href="#tours-details.html">Canada Tour</a>
+                </h5>
+                <div class="line"></div>
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul>
+                      <li>
+                        <i class="fa-regular fa-clock" style="color: #ffffff;"></i>
+                        7 Days
+                      </li>
+                      <li>
+                        <i class="fa-regular fa-user" style="color: #ffffff;"></i>
+                        10+
+                      </li>
+                      <li>
+                        <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                        Canada
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <section class="testimonials-sc">
+      <div class="testimonials-inner">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+
+            <div class="col-md-5">
+              <h5>We Provide Top Destinations Expecially For You Book Now and Enjoy!</h5>
+              <div class="phone-numb">
+                <div class="icon">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+
+                <div class="numb-txt">
+                  <p>Call Now</p><a href="tel:855-333-4444">855 333 4444</a>
+                </div>
+              </div>
+              <p><i class="fa-solid fa-check" style="color: #fafafa;"></i><small>Call us, it's toll-free.</small></p>
+            </div>
+
+            <div class="col-md-5">
+              <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                 
+                    <div class="carousel-item active">
+                      <div class="testimonials-box">
+                          <div class="head-box">
+                            <h6>Testimonials</h6>
+                            <h4>Travelers Reviews</h4>
+                          </div>
+                          <div class="item">
+                            <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                            <div class="information">
+                              <div class="author-img">
+                                <img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/team/04.png" alt="">
+                              </div>
+                              <div class="rank">
+                                <div class="rating mb-3">
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                </div>
+                                <h6 class="mb-2">Nolan White</h6>
+                                <span>Guest review</span>
+                              </div>
+    
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="testimonials-box">
+                          <div class="head-box">
+                            <h6>Testimonials</h6>
+                            <h4>Travelers Reviews</h4>
+                          </div>
+                          <div class="item">
+                            <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                            <div class="information">
+                              <div class="author-img">
+                                <img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/team/05.png" alt="">
+                              </div>
+                              <div class="rank">
+                                <div class="rating mb-3">
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                </div>
+                                <h6 class="mb-2">Emily Brown</h6>
+                                <span>Guest review</span>
+                              </div>
+    
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="testimonials-box">
+                          <div class="head-box">
+                            <h6>Testimonials</h6>
+                            <h4>Travelers Reviews</h4>
+                          </div>
+                          <div class="item">
+                            <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                            <div class="information">
+                              <div class="author-img">
+                                <img src="	https://duruthemes.com/demo/html/travol/multipage-slider/img/team/06.png" alt="">
+                              </div>
+                              <div class="rank">
+                                <div class="rating mb-3">
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                  <i class="fa-solid fa-star active" style="color: #ffffff;"></i>
+                                </div>
+                                <h6 class="mb-2">Olivia Martin</h6>
+                                <span>Guest review</span>
+                              </div>
+    
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="clients-sc">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="clients-inner">
+              <div class="clients-logo">
+                <a href="#0"><img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/clients/1.png" alt=""></a>
+              </div>
+
+              <div class="clients-logo">
+                <a href="#0"><img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/clients/2.png" alt=""></a>
+              </div>
+
+              <div class="clients-logo">
+                <a href="#0"><img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/clients/3.png" alt=""></a>
+              </div>
+
+              <div class="clients-logo">
+                <a href="#0"><img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/clients/4.png" alt=""></a>
+              </div>
+
+              <div class="clients-logo">
+                <a href="#0"><img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/clients/5.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-ft">
+      <div class="container">
+        <div class="first-ft">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="contact-ft firstBorder-ft">
+                <div class="contactInner">
+                  <div class="contact-image-wrapper">
+
+                    <div class="image-wrapper">
+                      <div class="icon-wrapper">
+                        <i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>
+                      </div>
+                    </div>
+                    <div class="contact-wrapper">
+                      <h6>Call us</h6>
+                      <p>+1 123-456-0606</p>
+                    </div>
+
+                  </div>
+                  <div class="contact-image-border"></div>
+                  <div class="contact-image-wrapper">
+
+                    <div class="image-wrapper">
+                      <div class="icon-wrapper">
+                        <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>                      </div>
+                    </div>
+                    <div class="contact-wrapper">
+                      <h6>Write to us
+                      </h6>
+                      <p>info@travolagency.com
+                      </p>
+                    </div>
+
+                  </div>
+                  <div class="contact-image-border"></div>
+                  <div class="contact-image-wrapper">
+
+                    <div class="image-wrapper">
+                      <div class="icon-wrapper">
+                        <i class="fa-solid fa-map-location-dot" style="color: #ffffff;"></i>                      </div>
+                    </div>
+                    <div class="contact-wrapper">
+                      <h6>Address
+                      </h6>
+                      <p>24 King St, SC 29401 USA
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-ft">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="logo-text-media">
+                <div class="plane-logo">
+                  <img src="https://duruthemes.com/demo/html/travol/multipage-slider/img/logo-light.png" alt="">
+                </div>
+                <div class="text-media">
+                  <p>Quisque imperdiet sapien porttito the bibendum sellentesque the commodo erat acar accumsa lobortis, enim diam the nesuen.</p>
+                   <div class="social-icons">
+                    <ul class="social-list">
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-x-twitter" style="color: #fafcff;"></i>                        </a>
+                      </li>                     
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-facebook-f" style="color: #fcfcfc;"></i>                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fa-brands fa-youtube" style="color: #ffffff;"></i>                        </a>
+                      </li>
+                    </ul>
+                   </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="quick-links">
+                <h3 class="text-hd">Quick Links</h3>
+                <ul>
+                  <li>
+                    <a href="About.html">About</a>
+                  </li>
+  
+                  <li>
+                    <a href="Tours.html">Tours</a>
+                  </li>
+  
+                  <li>
+                    <a href="Destinations.html">Destinations</a>
+                  </li>
+  
+                  <li>
+                    <a href="Blog.html">Blog</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="subscribe">
+                <h3 class="text-hd">Subscribe</h3>
+                <p>Sign up for our monthly blogletter to stay informed about travel and tours</p>
+                <div class="input-email">
+                  <form action="#" wfd-id="3">
+                    <input type="email" placeholder="Email Address" required="" wfd-id="4">
+                    <button type="submit">Send</button>
+                </form>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="last-ft mt-3">
+          <div class="row">
+            <p>©2023 DuruThemes. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+    <script src="Tours.js"></script>
+
+  </body>
+</html>
+
+
